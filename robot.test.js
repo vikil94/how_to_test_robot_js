@@ -86,8 +86,8 @@ test('test_prioritize_tasks_with_todos_returns_max_todo_value', () => {
 test('test_workday_on_day_off_returns_false', () => {
     // arrange
     const workdayBot = newRobot(false, true, true);
-    workdayBot.dayOff = 'May22';
-    let today = 'May22';
+    workdayBot.dayOff = 'Apr20';
+    let today = 'Apr20';
     const expectedResult = false;
 
     // act
